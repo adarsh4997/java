@@ -24,6 +24,15 @@ This repository contains a collection of Java programs demonstrating various con
 - **File Name:** `inttostring.java`
 - **Description:** This program converts an integer to a string and demonstrates string manipulation in Java.
 
+### 6. characterOccurrence.java
+- **File Name:** `characterOccurrence.java`
+- **Description:** This program counts occurrences of the characters 'a' (or 'A') and 's' (or 'S') in a given string.
+
+### 8. AlternateCharacters.java
+- **File Name:** `AlternateCharacters.java`
+- **Description:** This program prints every alternate character in a given string.
+
+
 ## How to Use
 
 To run these programs in Visual Studio Code, follow these steps:
