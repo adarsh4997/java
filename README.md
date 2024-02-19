@@ -32,6 +32,9 @@ This repository contains a collection of Java programs demonstrating various con
 - **File Name:** `AlternateCharacters.java`
 - **Description:** This program prints every alternate character in a given string.
 
+### 9. runSumCalc.java
+- **File Name:** `runSumCalc.java`
+- **Description:** The program prompts the user for the number of integers to input (n) and then processes each integer, updating and printing the running sum after each input.
 
 ## How to Use
 
