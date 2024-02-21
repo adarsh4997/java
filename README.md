@@ -2,6 +2,8 @@
 
 This repository contains a collection of Java programs demonstrating various concepts and functionalities.
 
+This may not be an updated README file. Head to Geekster folder for more insights.
+
 ## Programs
 
 ### 1. DataTypeStore.java
@@ -28,11 +30,11 @@ This repository contains a collection of Java programs demonstrating various con
 - **File Name:** `characterOccurrence.java`
 - **Description:** This program counts occurrences of the characters 'a' (or 'A') and 's' (or 'S') in a given string.
 
-### 8. AlternateCharacters.java
+### 7. AlternateCharacters.java
 - **File Name:** `AlternateCharacters.java`
 - **Description:** This program prints every alternate character in a given string.
 
-### 9. runSumCalc.java
+### 8. runSumCalc.java
 - **File Name:** `runSumCalc.java`
 - **Description:** The program prompts the user for the number of integers to input (n) and then processes each integer, updating and printing the running sum after each input.
 
