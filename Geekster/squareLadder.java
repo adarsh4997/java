@@ -14,7 +14,7 @@ public class squareLadder {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();  //5
         for (int row = 0; row < n; row++) {
-            if(row%2==0){
+            if(row%2!=0){
                 for(int i=0; i<n; i++){
                     System.out.print("*");
                 }
