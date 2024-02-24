@@ -19,10 +19,14 @@ public class invertedTriangle {
                 System.out.print(" ");
             }
             for (int i = 0; i < star; i++) {
-                System.out.print("*");
+                if(i%2==0){
+                    System.out.print("*");
+                }
+                else
+                    System.out.print("-");
             }
             System.out.println();
-            star-=2;
+            star--;
             space++;
         }
 
