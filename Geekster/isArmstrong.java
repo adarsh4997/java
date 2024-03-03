@@ -4,27 +4,46 @@ e.g. 153= (1^3)+(5^3)+(3^3)
      153=153 --> So it is a Armstrong number
 */
 
-import java.util.Scanner;
+//This one is updated code 
 
+
+import java.io.*;
+import java.util.*;
 public class isArmstrong {
 
-    static void isArmstrong(int n){
-        int num=n;
-        int sum=0;
-        while (n>0) {
-            int rem = n%10;
-            sum+=rem*rem*rem;
-            n/=10;
+    static void isArmstrong(int n, int k){
+        for (int i = n; i <= k; i++) {
+            int original=i;
+            int sum=0;
+            int count=isCount(original);
+            int temp=original;
+            while (temp!=0) {
+                int rem = temp % 10;
+                sum += Math.pow(rem, count);
+                temp /= 10;
+            }
+            if (original == sum) {
+                System.out.println(original);
+            }
         }
-        if(sum==num)
-            System.out.println("True");
-        else
-            System.out.println("False");
+    }
+
+    //added count method to count number of digits.
+
+    static int isCount(int num){
+        int count=0;
+        while (num!=0) {
+            num/=10;
+            count++;
+        }
+        return count;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         int n = sc.nextInt();
-        isArmstrong(n);
+        int k = sc.nextInt();
         
+        isArmstrong(n,k);
+            
     }
 }
