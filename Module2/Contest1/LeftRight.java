@@ -39,6 +39,7 @@ Sample Output 0
 
  */
 
+package java.Module2.Contest1;
 import java.util.*;
 
 public class LeftRight {
