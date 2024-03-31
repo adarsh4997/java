@@ -36,6 +36,11 @@ For every other number in the array x, 6 is at least twice as big as x.
 
 The index of value 6 is 1, so we return 1.
 
+Note: When we say the largest number is "at least twice as big as every other number," it means that the largest number must be greater than or equal to two times every other number in the list.
+    largest number = 2 times or greater than of each element
+    e.g. 3 6 1 0 
+            3*2 1*2 0*2 --> every element is two or more times largest element.
+
  */
 
 package java.Module2.Contest2;
